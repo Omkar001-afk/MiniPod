@@ -1,0 +1,76 @@
+.library {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 20rem;
+  height: 100%;
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 50px rgb(204, 204, 204);
+  overflow: scroll;
+  //hidden in left side
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
+  h2 {
+    text-align: center;
+    padding: 2rem;
+  }
+}
+
+.lib-song {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  cursor: pointer;
+  transition: background 0.5 ease;
+  img {
+    width: 30%;
+  }
+  &:hover {
+    background-color: lightblue;
+  }
+}
+.song-desc {
+  padding-left: 1rem;
+  h3 {
+    font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.7rem;
+  }
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: (155, 155, 155, 0.5) transparent;
+}
+*::-webkit-scrollbar {
+  //   background-color: tomato;
+  width: 5px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar {
+  background-color: (155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+.selected {
+  background: rgb(20, 82, 139);
+  h3 {
+    font-style: italic;
+    color: whitesmoke;
+  }
+  h4 {
+    color: white;
+  }
+}
+.active-lib {
+  transform: translateX(0%);
+  opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .library {
+    width: 100%;
+  }
+}
