@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MiniPod/static/css/main.5fea798d.chunk.css",
+    "main.js": "/MiniPod/static/js/main.fdf85a11.chunk.js",
+    "main.js.map": "/MiniPod/static/js/main.fdf85a11.chunk.js.map",
+    "runtime-main.js": "/MiniPod/static/js/runtime-main.83bbd337.js",
+    "runtime-main.js.map": "/MiniPod/static/js/runtime-main.83bbd337.js.map",
+    "static/js/2.3f698e59.chunk.js": "/MiniPod/static/js/2.3f698e59.chunk.js",
+    "static/js/2.3f698e59.chunk.js.map": "/MiniPod/static/js/2.3f698e59.chunk.js.map",
+    "static/js/3.d3b3d867.chunk.js": "/MiniPod/static/js/3.d3b3d867.chunk.js",
+    "static/js/3.d3b3d867.chunk.js.map": "/MiniPod/static/js/3.d3b3d867.chunk.js.map",
+    "index.html": "/MiniPod/index.html",
+    "static/css/main.5fea798d.chunk.css.map": "/MiniPod/static/css/main.5fea798d.chunk.css.map",
+    "static/js/2.3f698e59.chunk.js.LICENSE.txt": "/MiniPod/static/js/2.3f698e59.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83bbd337.js",
+    "static/js/2.3f698e59.chunk.js",
+    "static/css/main.5fea798d.chunk.css",
+    "static/js/main.fdf85a11.chunk.js"
+  ]
+}
